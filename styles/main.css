@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient(214deg, rgb(96, 40, 103) 0%, rgb(109, 9, 121) 32%, rgb(255, 0, 129) 100%);
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#mainContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+}
+header{
+    //background-color: ;
+    color: white;
+    padding: 20px;
+}
+header > ul > li{
+    display: inline;
+    padding: 12px;
+    margin: 12px;
+    font-size: 18px;
+}
+header > ul {
+    float: right;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: white;
+    color: cyan;
+    padding:9px 25px;
+    maargin:30px;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#mainContent{
+    height: 100%;
+    width:100%;
+}
+
+#signInUp{
+    width: 75%;
+    padding: 30px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 6px 6px 17px 3px #00000063;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+#signInPhoto{
+}
+#signSpace{
+    float:right;
+    width:100%;
+    padding: 30px;
+}
